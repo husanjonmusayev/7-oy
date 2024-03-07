@@ -1,0 +1,90 @@
+body {
+  font-family: sans-serif;
+}
+.wrapper {
+  width: 75%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.wrapper .heading h2 {
+  color: rgb(188, 188, 188);
+}
+.wrapper .items h3 {
+  color: rgb(255, 255, 255);
+  font-size: medium;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.items {
+  display: flex;
+  justify-content: space-between;
+}
+.items .toDo,
+.doing,
+.done {
+  background-color: rgba(93, 46, 140, 0.591);
+  border-radius: 5px;
+  width: 30%;
+  min-height: 150px;
+  box-shadow: 5px 5px 10px lightgray;
+}
+.default {
+  padding: 15px;
+  padding-bottom: 0;
+}
+.items input {
+  color: rgb(60, 60, 60);
+  outline: none;
+  width: 80%;
+  font-size: 17px;
+  padding: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+  background-color: white;
+
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.items input::placeholder {
+  color: gray;
+}
+.inp__btn {
+  display: flex;
+}
+.inp__btn button {
+  cursor: pointer;
+  color: rgb(67, 67, 67);
+  width: 20%;
+  background: white;
+  border: none;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.actions {
+  display: flex;
+  gap: 5px;
+}
+.actions svg path {
+  fill: white;
+}
+.actions svg {
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+}
+.list {
+  color: white;
+  background-color: rgba(70, 70, 70, 0.855);
+  align-items: center;
+  display: flex;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  justify-content: space-between;
+}
+.list__wrapper {
+  padding: 15px;
+}
