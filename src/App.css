@@ -10,6 +10,7 @@ body {
 }
 .wrapper .heading h2 {
   color: rgb(188, 188, 188);
+  text-align: center;
 }
 .wrapper .items h3 {
   color: rgb(255, 255, 255);
